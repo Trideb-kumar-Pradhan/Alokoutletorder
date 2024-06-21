@@ -139,6 +139,7 @@ import axios from 'axios';
 
 const Cart = ({ cart = [], removeFromCart, submitOrder }) => {
   const [formData, setFormData] = useState({
+    EMPCode:'',
     name: '',
     address: '',
     email: '',
@@ -227,6 +228,14 @@ const Cart = ({ cart = [], removeFromCart, submitOrder }) => {
         </Grid>
       )}
       <form onSubmit={handleSubmit}>
+      <TextField
+          label="EMPCode"
+          name="EMPCode"
+          value={formData.EMPCode}
+          onChange={handleChange}
+          fullWidth
+          margin="normal"
+        />
         <TextField
           label="Name"
           name="name"
