@@ -64,7 +64,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      {/* <Hero /> */}
+      <Hero />
       <Container>
         <Routes>
           <Route path="/" element={<ProductList products={products} addToCart={addToCart} />} />
