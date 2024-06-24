@@ -1,12 +1,32 @@
 // products.js
 const products = [
-  { id: 1, name: 'Product 1', price: 10.00, stock: 5, image: 'a.jpeg' },
-  { id: 2, name: 'Product 2', price: 20.00, stock: 3, image: 'b.jpeg' },
-  { id: 3, name: 'Product 3', price: 30.00, stock: 2, image: 'd.jpeg' },
-  { id: 1, name: 'Product 4', price: 10.00, stock: 5, image: 'c.jpeg' },
-  { id: 2, name: 'Product 5', price: 20.00, stock: 3, image: 'd.jpeg' },
-  { id: 3, name: 'Product 6', price: 30.00, stock: 2, image: 'b.jpeg' },
-  // Add more products as needed
+  { id: 1, name: 'Shubham 1', price: 10.00, stock: 200, image: 'R120TC-1.jpg' },
+  { id: 2, name: 'Shubham 2', price: 20.00, stock: 200, image: 'R120TC-2.jpg' },
+  { id: 3, name: 'Shubham 3', price: 30.00, stock: 200, image: 'R120TC-3.jpg' },
+  { id: 4, name: 'Shubham 4', price: 10.00, stock: 200, image: 'R120TC-4.jpg' },
+  { id: 5, name: 'Shubham 5', price: 20.00, stock: 200, image: 'R120TC-5.jpg' },
+  { id: 6, name: 'Shubham 6', price: 30.00, stock: 200, image: 'R120TC-6.jpg' },
+  { id: 7, name: 'Shubham 7', price: 10.00, stock: 200, image: 'R120TC-7.jpg' },
+  { id: 8, name: 'Shubham 8', price: 20.00, stock: 200, image: 'R120TC-8.jpg' },
+  { id: 9, name: 'Shubham 9', price: 30.00, stock: 200, image: 'R120TC-9.jpg' },
+  { id: 10, name: 'Passion 1', price: 20.00, stock: 200, image: 'R200TC-1.jpg' },
+  { id: 11, name: 'Passion 2', price: 10.00, stock: 200, image: 'R200TC-2.jpg' },
+  { id: 12, name: 'Passion 3', price: 30.00, stock: 200, image: 'R200TC-3.jpg' },
+  { id: 13, name: 'Passion 4', price: 10.00, stock: 200, image: 'R200TC-4.jpg' },
+  { id: 14, name: 'Passion 5', price: 20.00, stock: 200, image: 'R200TC-5.jpg' },
+  { id: 15, name: 'Passion 6', price: 30.00, stock: 200, image: 'R200TC-6.jpg' },
+  { id: 16, name: 'Passion 7', price: 10.00, stock: 200, image: 'R200TC-7.jpg' },
+  { id: 17, name: 'Passion 8', price: 20.00, stock: 200, image: 'R200TC-8.jpg' },
+  { id: 18, name: 'Passion 9', price: 30.00, stock: 200, image: 'R200TC-9.jpg' },
+  { id: 19, name: 'Elegance 1', price: 10.00, stock: 300, image: 'R300TC-1.jpg' },
+  { id: 20, name: 'Elegance 2', price: 30.00, stock: 300, image: 'R300TC-2.jpg' },
+  { id: 21, name: 'Elegance 3', price: 20.00, stock: 300, image: 'R300TC-3.jpg' },
+  { id: 22, name: 'Elegance 4', price: 30.00, stock: 300, image: 'R300TC-4.jpg' },
+  { id: 23, name: 'Elegance 5', price: 30.00, stock: 300, image: 'R300TC-5.jpg' },
+  { id: 24, name: 'Elegance 6', price: 10.00, stock: 300, image: 'R300TC-6.jpg' },
+  { id: 25, name: 'Elegance 7', price: 20.00, stock: 300, image: 'R300TC-7.jpg' },
+  { id: 26, name: 'Elegance 8', price: 30.00, stock: 300, image: 'R300TC-8.jpg' },
+  { id: 27, name: 'Elegance 9', price: 30.00, stock: 300, image: 'R300TC-9.jpg' },
 ];
 
-export default products;
+export default products;200

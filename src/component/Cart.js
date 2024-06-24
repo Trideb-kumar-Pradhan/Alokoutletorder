@@ -230,7 +230,7 @@ const Cart = ({ cart = [], removeFromCart, submitOrder }) => {
               <Card style={{ margin: '10px' }}>
                 <CardContent>
                   <Typography variant="h5">{product.name}</Typography>
-                  <Typography variant="h6">${product.price.toFixed(2)}</Typography>
+                  <Typography variant="h6">₹{product.price.toFixed(2)}</Typography>
                   <Typography variant="body2">Quantity: {product.quantity}</Typography>
                   <Button variant="contained" color="secondary" onClick={() => removeFromCart(product.id)}>
                     Remove

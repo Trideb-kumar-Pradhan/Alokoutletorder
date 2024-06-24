@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
-import heroImage from '../assets/q.webp'; // Ensure this path is correct
+import heroImage from '../assets/Offer.jpg'; // Ensure this path is correct
 
 const Hero = () => {
   return (
@@ -10,12 +10,14 @@ const Hero = () => {
         backgroundImage: `url(${heroImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        height: '45vh',
-        display: 'flex',
-        justifyContent: 'center',
+        backgroundColor:'none',
+        height: '70vh',
+        // display: 'flex',
+        // justifyContent: 'center',
         alignItems: 'center',
-        color: 'white',
-        textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+        // color: 'white',
+        // textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+        marginBottom:'10px'
       }}
     >
       <Box
@@ -25,7 +27,6 @@ const Hero = () => {
           left: 0,
           width: '100%',
           height: '100%',
-          background: 'rgba(0, 0, 0, 0.5)',
           zIndex: 1,
         }}
       />
@@ -38,14 +39,16 @@ const Hero = () => {
         }}
       >
         <Typography variant="h3" sx={{ mb: 2 }}>
-          Welcome to Our E-Commerce Store
+
         </Typography>
         <Typography variant="h5" sx={{ mb: 4 }}>
-          Discover Amazing Products at Unbeatable Prices
+          {/* Discover Amazing Products at Unbeatable Prices */}
         </Typography>
 
       </Box>
+      
     </Box>
+
   );
 };
 

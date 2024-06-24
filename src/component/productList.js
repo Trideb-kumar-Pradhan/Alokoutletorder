@@ -7,22 +7,26 @@ const ProductList = ({ products, addToCart }) => {
     <Box sx={{ flexGrow: 1, padding: '20px' }}>
       <Grid container spacing={3}>
         {products.map((product) => (
-          <Grid item xs={12} sm={6} md={4} lg={3} key={product.id} style={{ marginTop :'15px'}} >
-            <Card style={{ margin: '10px', maxWidth: '400px' }}>
+          <Grid item xs={12} sm={6} md={4} lg={3} key={product.id} style={{ marginTop :'15px',borderRadious:'90px',borderColor:'red'}} >
+            <Card style={{ margin: '10px', maxWidth: '400px', borderColor:'red',borderRadious:'90px'}}>
             <CardMedia
                 component="img"
-                height="190"
+                height="240"
+                width="200"
                 image={require(`../assets/${product.image}`)} // Dynamic import based on product.image
                 alt={product.name}
-                style={{ objectFit: 'cover' }} // Inline style for object-fit: cover
+                style={{ objectFit: 'content', }} 
+                
+                // Inline style for object-fit: cover
               />
               <CardContent sx={{ justifyContent: 'center', display: 'flex', flexDirection: 'column' }}>
                 <Typography variant="h5">{product.name}</Typography>
-                <Typography variant="h6">${product.price.toFixed(2)}</Typography>
+                <Typography variant="h6">₹{product.price.toFixed(2)}</Typography>
                 <Typography variant="body2">Stock: {product.stock}</Typography>
                 <Button
-                  variant="contained"
-                  color="primary" 
+                  // variant="contained"
+                  // color="primary" 
+                  style={{ backgroundColor: 'black' ,color:'white'}}
                   onClick={() => addToCart(product)}
                   disabled={product.stock === 0}
                 >
