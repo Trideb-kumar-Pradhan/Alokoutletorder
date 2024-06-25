@@ -29,4 +29,4 @@ const products = [
   { id: 27, name: 'Elegance 9', price: 30.00, stock: 300, image: 'R300TC-9.jpg' },
 ];
 
-export default products;200
+export default products;

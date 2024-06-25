@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Card, CardContent, Typography, CardMedia, Button, Box } from '@mui/material';
-import products from '../data/products'; // Assuming products.js is in src/data folder
+// import products from '../data/products'; // Assuming products.js is in src/data folder
 
 const ProductList = ({ products, addToCart }) => {
   return (
